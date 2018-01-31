@@ -1,0 +1,54 @@
+@media all and (max-width: 1000px) {
+
+    #center, #top, #bottom {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    span#current-temp {
+        font-size: 5vh;
+        margin: 0 10px;
+    }
+    div#current > *, div#humidity > * {
+        margin: 0;
+    }
+    div#current > *, div#humidity > * {
+        margin: 0;
+    }
+    section#today-forecast > div {
+        height: 30vh;
+        width: 250px;
+        border-bottom: none;
+    }
+
+    div.hour-chart {
+        height: 20vh;
+    }
+
+    span#min-temp, span#max-temp {
+        font-size: 2vh;
+    }
+
+
+    .day-slider-card {
+        height: 20vh;
+    }
+
+    div.hour-chart {
+        height: 32vh;
+        margin-top: 10px;
+    }
+    #center, #top, #bottom {
+        min-height: 30vh;
+        width: 100%;
+        margin: 2vh 0 0 0;
+    }
+    div.humidity-chart, div#temperature {
+        height: 140px;
+        overflow: hidden;
+    }
+    .navbar > input{
+        font-size: 4vh;
+        height: 30px;
+
+    }
+}

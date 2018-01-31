@@ -1,0 +1,80 @@
+section {
+    width: 100%;
+    margin: 2vh 0 0 0;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+span {
+    overflow: hidden;
+}
+
+section#today-forecast > div {
+    height: 270px;
+    width: 250px;
+    margin: 2vh 2vh;
+    border-bottom: rgba(255, 255, 255, 0.27) 2px solid;
+}
+
+section#today-forecast > div:hover {
+    background: rgba(235, 235, 235, 0.16);
+}
+
+div.humidity-chart, div#temperature {
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+}
+
+div#current > *, div#humidity > * {
+    margin: 5px;
+}
+
+div#temperature {
+    width: 100%;
+}
+
+div.location > span, div#current-weather > span, div#humidity > span {
+    font-size: 3vh;
+}
+
+span.temp {
+    font-size: 4vh;
+    margin: 0 10px;
+}
+
+span.min.temp, span.max.temp {
+    font-size: 1.5vh;
+}
+
+footer {
+    width: 100%;
+}
+
+
+
+.celsius:after, .day-temp:after{
+    content: "\00b0 C";
+    font-size: 3vh;
+}
+
+.day-temp {
+    font-size: 4vh;
+}
+
+.min.temp:after  {
+    font-size: 1.2vh;
+}
+
+.location .country-code:before{
+    content:", ";
+}
+.location .country-code {
+    font-size:2vh;
+}

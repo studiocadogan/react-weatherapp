@@ -1,0 +1,10 @@
+.day-weather-icon{
+    height: 28px;
+    width: 28px;
+
+}
+
+#current-weather-icon{
+    height:38px;
+    width: 38px;
+}

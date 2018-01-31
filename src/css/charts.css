@@ -1,0 +1,42 @@
+.ct-series-a .ct-bar, .ct-series-a .ct-slice-donut {
+    stroke: #00c6d7;
+}
+
+.ct-series-b .ct-slice-donut {
+    stroke: rgba(249, 252, 255, 0.46);
+}
+
+.ct-label {
+    fill: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    /*font-size: 1.5vh;*/
+    line-height: 1;
+}
+
+.ct-series-a .ct-line, .ct-series-a .ct-point{
+    stroke: #9f9f9f;
+}
+
+.ct-series-a .ct-area{
+    fill: #c2c2c2;
+    fill-opacity: 0.2;
+}
+
+.ct-line{
+    stroke-width: 2px;
+}
+
+.ct-point{
+    stroke-width: 5px;
+}
+
+div.hour-chart {
+    height: 32vh;
+    margin: 3vh 1vh 1vh 2vh;
+    overflow: hidden;
+}
+
+
+.ct-label.ct-horizontal.ct-end {
+    font-size:10px;
+}
